@@ -1,0 +1,12 @@
+{
+  "id": "scheduled",
+  "metadata": {
+    "type": "static_text",
+    "rotateAt": "14:30"
+  },
+  "data": {
+    "title": "Scheduled View",
+    "text": "This view rotates at 2:30 PM"
+  }
+}
+

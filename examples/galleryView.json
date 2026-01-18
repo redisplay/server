@@ -1,0 +1,15 @@
+{
+  "id": "my-gallery",
+  "metadata": {
+    "type": "gallery",
+    "rotateAfter": 15000
+  },
+  "data": {
+    "imageUrl": "http://192.168.1.104:3000/api/gallery/images/1",
+    "caption": "Welcome to the Gallery!",
+    "scaleType": "fitCenter"
+  }
+}
+
+
+

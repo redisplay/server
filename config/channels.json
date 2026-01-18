@@ -1,0 +1,49 @@
+{
+  "channels": {
+    "kiosk": {
+      "views": [
+        "welcome",
+        "info",
+        "schedule"
+      ]
+    },
+    "display": {
+      "views": [
+        "welcome",
+        "info",
+        "example-image"
+      ]
+    },
+    "test2": {
+      "views": [
+        "webcam-lorica-0",
+        "webcam-lorica-1",
+        "weather-cosenza"
+      ]
+    },
+    "test": {
+      "views": [
+        "world-clock",
+        "weather-berlin",
+        "webcam-lorica-0",
+        "webcam-lorica-1",
+        "weather-forecast-berlin",
+        "main-clock",
+        "my-calendar",
+        "my-calendar-month",
+        "gallery-1"
+      ],
+      "quadrants": {
+        "TOP_LEFT": "test-view-2",
+        "TOP_CENTER": "webcam-lorica-1",
+        "TOP_RIGHT": "world-clock",
+        "MIDDLE_LEFT": "PREVIOUS",
+        "MIDDLE_CENTER": "test-view-2",
+        "MIDDLE_RIGHT": "NEXT",
+        "BOTTOM_LEFT": "main-clock",
+        "BOTTOM_CENTER": "my-calendar",
+        "BOTTOM_RIGHT": "weather-forecast-berlin"
+      }
+    }
+  }
+}

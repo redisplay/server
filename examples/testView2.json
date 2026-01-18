@@ -1,0 +1,17 @@
+{
+  "id": "test-view-2",
+  "metadata": {
+    "type": "static_text",
+    "rotateAfter": 5000
+  },
+  "data": {
+    "title": "Test View 2",
+    "text": "This is the second rotating view",
+    "background": {
+      "type": "gradient",
+      "from": "#667eea",
+      "to": "#764ba2"
+    }
+  }
+}
+
