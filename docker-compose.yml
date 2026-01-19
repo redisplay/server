@@ -3,9 +3,13 @@ version: '3.8'
 services:
   app:
     build: .
+    image: ghcr.io/redisplay/server:master
     ports:
       - "3000:3000"
     environment:
       - PORT=3000
+    volumes:
+      - ./config/channels.json:/app/config/channels.json:ro
+      - ./data/views.json:/app/data/views.json:ro
     restart: unless-stopped
 
