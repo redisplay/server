@@ -22,12 +22,6 @@ export function logChannel(message, channel, data = {}) {
   console.log(`${ts} ${tag} ${message}${formatData(data)}`);
 }
 
-export function logBle(message, data = {}) {
-  const ts = chalk.gray(`[${getTimestamp()}]`);
-  const tag = chalk.blue.bold('[BLE]');
-  console.log(`${ts} ${tag} ${message}${formatData(data)}`);
-}
-
 export function logInfo(message, data = {}) {
   const ts = chalk.gray(`[${getTimestamp()}]`);
   const tag = chalk.green.bold('[INFO]');

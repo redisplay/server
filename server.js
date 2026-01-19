@@ -18,7 +18,6 @@ import { initializeWebcamDb } from './services/webcam-db.js';
 import { initializeWeatherDb } from './services/weather-db.js';
 import { initializeGalleryDb } from './services/gallery-db.js';
 import { startWeatherFetcher } from './services/weatherFetcher.js';
-import { BleService } from './services/ble/BleService.js';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -89,14 +88,6 @@ app.listen(PORT, '0.0.0.0', () => {
     });
   } catch (e) {
     console.warn('Could not list network interfaces:', e);
-  }
-
-  // Initialize BLE Service
-  try {
-    console.log('Initializing BLE Service...');
-    new BleService(viewManager);
-  } catch (err) {
-    console.error('Failed to initialize BLE Service:', err);
   }
 });
 
